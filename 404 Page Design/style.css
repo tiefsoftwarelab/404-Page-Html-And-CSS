@@ -1,0 +1,104 @@
+
+
+/*  /// Import 2 Google Fonts Jost & Foldit ///  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100;200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'jost', sans-serif;
+    list-style: none;
+}
+html, body{
+    height: 100vh;
+    background: linear-gradient(powderblue,whitesmoke);
+    line-height: 1.5;
+    font-family: sans-serif;
+    font-size: clamp(1.125rem, 2vw, 1.20rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*   /// Heding Navigation bar ///   */
+
+header{
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+    background: white; 
+
+}
+.logo{
+    position: absolute;
+    margin: auto 100px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Foldit', sans-serif;
+}
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    margin-right: 80px;
+}
+li{
+    margin: 20px;
+}
+a{
+    color: grey;
+}
+ a:hover, .active{
+    color: #fea800;
+    transition-delay: 0.200s;
+}
+
+/*   /// Body costom ///   */
+
+img{
+    position: absolute;
+    left: 0;
+}
+.container{
+    position: absolute;
+    right: 100px;
+}
+.container h1{
+     font-size: 10rem;
+     color: black;
+     z-index: -700;
+     font-weight: 800;
+}
+.container p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.container .home{
+    margin-top: 40px;
+}
+.container a{
+    color: white;
+    font-size: 15px;
+    padding: 10px 50px;
+    background: black;
+}
+.container a:hover {
+    text-decoration: underline;   
+}
+/*   /// The End ///    */
